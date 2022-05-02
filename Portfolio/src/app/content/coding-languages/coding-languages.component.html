@@ -1,1 +1,11 @@
-<p>coding-languages works!</p>
+<mat-card class="language">
+    <mat-card-header>
+      <mat-card-title>{{ language?.name }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image *ngIf="language?.imgURL" [src]='language?.imgURL' [alt]='language?.name' width="300" />
+    <img mat-card-image *ngIf="!language?.imgURL" src="https://www.makewonder.com/wp-content/uploads/sites/4/2021/01/coding-languages-image.jpeg" alt="Default Image" />
+
+    <mat-card-content>
+        <p>{{ language?.description }}</p>
+    </mat-card-content>
+  </mat-card>
