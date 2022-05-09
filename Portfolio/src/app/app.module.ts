@@ -11,6 +11,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { CodingLanguagesComponent } from './content/coding-languages/coding-languages.component';
 import { ContentListComponent } from './content-list/content-list.component';
 import { MatCardModule } from '@angular/material/card';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MatCardModule } from '@angular/material/card';
     HomepageComponent,
     CodingLanguagesComponent,
     ContentListComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
