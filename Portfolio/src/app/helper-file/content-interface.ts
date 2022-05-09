@@ -3,6 +3,7 @@ export interface Content {
     contentType: string;
     name: string;
     description: string;
+    imgURL: string;
 }
 
 export interface JobContent extends Content {
