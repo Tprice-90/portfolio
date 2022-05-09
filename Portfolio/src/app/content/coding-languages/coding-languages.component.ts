@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Content } from '../../helper-file/content-interface';
 
 @Component({
   selector: 'app-coding-languages',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CodingLanguagesComponent implements OnInit {
 
+  @Input() language?: Content
   constructor() { }
 
   ngOnInit(): void {

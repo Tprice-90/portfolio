@@ -41,7 +41,7 @@ export class InMemoryDataService implements InMemoryDbService {
   constructor() { }
 
   createDb() {
-    const langContent: Content[] = this.LANGCONTENT;
+    const langContent = this.LANGCONTENT;
     return { langContent };
   }
 }
