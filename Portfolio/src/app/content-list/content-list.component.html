@@ -1,1 +1,3 @@
-<app-coding-languages *ngFor="let item of languageList; first as isFirst"[language]='item'></app-coding-languages>
+<section *ngIf="router.url === '/coding'">
+    <app-coding-languages *ngFor="let item of languageList; first as isFirst"[language]='item'></app-coding-languages>
+</section>
