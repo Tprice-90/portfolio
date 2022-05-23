@@ -1,6 +1,8 @@
 .nav {
     display: block;
     width: 100%;
+    position: fixed;
+    top: 0;
     background-color:blue;
     z-index: 5;
 }
@@ -16,6 +18,7 @@
 .nav-list li {
     display: inline;
     float: right;
+    font-weight: bold;
 }
 
 li a {
@@ -29,4 +32,8 @@ li a {
 img {
     display: inline;
     float: left;
+}
+
+.content {
+    margin-top: 100px;
 }

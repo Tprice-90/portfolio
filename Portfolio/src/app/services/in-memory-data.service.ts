@@ -30,11 +30,18 @@ export class InMemoryDataService implements InMemoryDbService {
       imgURL: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlNsdRlCQXs6lmAdCbwJtKinEPL29rFqmHzQ&usqp=CAU'
     },
     {
-      id: 0,
+      id: 3,
       contentType: 'language',
       name: 'JavaScript',
       description: 'If you want your website to be fun and interactive, you need JavaScript!',
       imgURL: 'https://cyberhoot.com/wp-content/uploads/2020/07/Free-Courses-to-learn-JavaScript.jpg'
+    },
+    {
+      id: 4,
+      contentType: 'language',
+      name: 'Angular',
+      description: 'A more recent framework I have learned to use and one that I have grown most comfortable with. In fact, Angular is how I\'ve built this site!',
+      imgURL: 'https://www.mindinventory.com/blog/wp-content/uploads/2021/11/angular-13.png'
     }
   ]
 
