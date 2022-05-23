@@ -1,8 +1,7 @@
 .body {
     display: block;
-    margin: 40px auto;
+    margin: 0 auto;
     width: 75%;
-    border: 3px solid red;
 }
 p{
     line-height: 1.5;
@@ -11,21 +10,53 @@ p{
 }
 
 article {
-    width: 75%;
-    margin: 5%;
+    width: 100%;
 }
 
 .display {
     display: inline-block;
-    width: 200px;
-    float: left;
+    width: 30%;
 }
 
 .intro {
+    display: block;
     float: right;
-    width: 400px;
+    padding-top: 5%;
+    width: 50%;
 }
 
 .git {
     clear: both;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 740px) {
+    .body {
+        width: 100%;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1;
+    }
+    
+    .display {
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+    }
+    
+    .intro {
+        display: block;
+        float: none;
+        padding-top: 0;
+        width: 80%;
+        margin: 0 auto;
+    }   
+    
+    .git {
+        width: 80%;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
 }
