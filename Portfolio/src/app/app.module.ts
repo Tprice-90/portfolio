@@ -13,13 +13,14 @@ import { ContentListComponent } from './content-list/content-list.component';
 import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     CodingLanguagesComponent,
     ContentListComponent,
-    FooterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
