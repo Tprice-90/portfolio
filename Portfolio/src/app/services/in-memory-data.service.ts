@@ -42,6 +42,13 @@ export class InMemoryDataService implements InMemoryDbService {
       name: 'Angular',
       description: 'A more recent framework I have learned to use and one that I have grown most comfortable with. In fact, Angular is how I\'ve built this site!',
       imgURL: 'https://www.mindinventory.com/blog/wp-content/uploads/2021/11/angular-13.png'
+    },
+    {
+      id: 5,
+      contentType: 'Language',
+      name: 'Laravel',
+      description: 'Another recent framework I\'ve learned. Very powerful for backend development and a great compliment to Angular\'s front-end power.',
+      imgURL: 'https://www.etondigital.com/wp-content/uploads/2019/05/laravel-blog.png'
     }
   ]
 
