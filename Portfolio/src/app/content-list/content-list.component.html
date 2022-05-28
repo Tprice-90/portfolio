@@ -1,3 +1,5 @@
-<section *ngIf="router.url === '/coding'">
+<h2>Languages And Frameworks</h2>
+
+<section class="list-content" *ngIf="router.url === '/coding'">
     <app-coding-languages *ngFor="let item of languageList; first as isFirst"[language]='item'></app-coding-languages>
 </section>

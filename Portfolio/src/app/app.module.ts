@@ -33,7 +33,7 @@ import { FooterComponent } from './footer/footer.component';
     }),
     BrowserAnimationsModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

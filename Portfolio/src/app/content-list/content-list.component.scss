@@ -1,0 +1,25 @@
+.list-content {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+app-coding-languages {
+    display: block;
+    width: 33%;
+    float: left;
+}
+
+@media screen and (max-width: 740px) {
+    app-coding-languages {
+        width: 95%;
+        float: none;
+    }
+}
