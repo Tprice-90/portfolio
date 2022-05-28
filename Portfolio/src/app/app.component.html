@@ -4,13 +4,13 @@
     <button mat-button class="mobile-menu" [matMenuTriggerFor]="menu">Menu</button>
     <mat-menu #menu="matMenu">
       <button mat-menu-item routerLink="/home">Home</button>
-      <button mat-menu-item>About</button>
+      <button mat-menu-item routerLink="/about">About</button>
       <button mat-menu-item routerLink="/coding">Languages/Frameworks</button>
-      <button mat-menu-item>Projects</button>
+      <button mat-menu-item routerLink="/projects">Projects</button>
     </mat-menu>
 
     <ul class="nav-list">
-      <li><a>Projects</a></li>
+      <li><a routerLink="/projects">Projects</a></li>
       <li><a routerLink="/coding">Languages/Frameworks</a></li>
       <li><a routerLink="/about">About</a></li>
       <li><a routerLink="/home">Home</a></li>
