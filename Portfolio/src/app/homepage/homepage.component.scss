@@ -15,14 +15,14 @@ article {
 
 .display {
     display: inline-block;
-    width: 30%;
+    margin: 0 auto;
+    width: 20%;
 }
 
 .intro {
-    display: block;
-    float: right;
-    padding-top: 5%;
-    width: 50%;
+    display: inline-block;
+    padding-left: 2%;
+    width: 78%;
 }
 
 .git {
@@ -42,7 +42,6 @@ article {
     
     .display {
         display: block;
-        width: 40%;
         margin: 0 auto;
     }
     

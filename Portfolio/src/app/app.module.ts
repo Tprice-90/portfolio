@@ -11,6 +11,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { CodingLanguagesComponent } from './content/coding-languages/coding-languages.component';
 import { ContentListComponent } from './content-list/content-list.component';
 import { MatCardModule } from '@angular/material/card';
+import { MatMenuModule } from '@angular/material/menu';
 import { FooterComponent } from './footer/footer.component';
 
 
@@ -31,7 +32,8 @@ import { FooterComponent } from './footer/footer.component';
       delay: 2000
     }),
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

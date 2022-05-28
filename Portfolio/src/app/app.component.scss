@@ -36,7 +36,7 @@ li a {
     text-decoration: none;
 }
 
-#mobilenav {
+.mobile-menu {
 	display: none;
 }
 
@@ -56,4 +56,19 @@ app-footer {
     width: 100%;
     margin-top: 100px;
     flex-shrink: 0;
+}
+
+@media screen and (max-width: 740px) {
+    .nav-list {
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+        float: right;
+        font-size: 24px;
+        color: white;
+        margin: auto;
+        background-color: black;
+    }
 }
