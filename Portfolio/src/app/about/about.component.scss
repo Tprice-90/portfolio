@@ -16,6 +16,10 @@ img {
 }
 
 @media screen and (max-width: 720px) {
+mat-card {
+    width: 75%;
+}
+
     img {
         width: 75%;
     }
